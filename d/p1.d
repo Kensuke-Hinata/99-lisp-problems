@@ -3,7 +3,7 @@ import std.stdio, std.string;
 T[] myLast(T)(T[] a)
 {
     if (a.length == 0) return null;
-    return a[a.length - 1 .. $];
+    return a[$ - 1 .. $];
 }
 
 int main(string[] args)

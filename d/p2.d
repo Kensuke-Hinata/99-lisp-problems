@@ -3,7 +3,7 @@ import std.stdio, std.string;
 T[] myButLast(T)(T[] a)
 {
     if (a.length < 2) return null;
-    return a[a.length - 2 .. $];
+    return a[$ - 2 .. $];
 }
 
 int main(string[] args)
